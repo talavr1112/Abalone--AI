@@ -59,7 +59,7 @@ def get_agent_from_argv(argv):
 
         argv.pop(3)
         argv.pop(2)
-    elif argv[1] == "QLearningAgent":
+    elif argv[1] == "QLearning":
         agent = QLearningAgent.load_trained_q_learning_agent(file_name=Q_LEARNING_FILE_PATH)
     else:
         raise Exception(AGENT_EXCEPTION_MESSAGE)
