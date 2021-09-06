@@ -73,7 +73,7 @@ Agents List -
     RandomPrioritize
     AlphaBeta
     Minimax
-    QLearningAgent
+    QLearning
 
 ## Heuristics
 Heuristics Lists-
